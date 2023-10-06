@@ -5,7 +5,7 @@ const Login = () => {
 
 <div>
 
-<div className="  mt-20  h-screen ">
+<div className=" my-10 md:my-20  ">
 
   <div className="hero-content  ">
 

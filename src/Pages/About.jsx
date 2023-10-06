@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <div className="my-20">
+        <div className="md:my-20 my-10">
            
 <section className="bg-white :bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
