@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://i.ibb.co/Pr38m11/abstract-plexus-blue-geometrical-shapes-connection-ai-generated-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; */
+    
+}
