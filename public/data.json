@@ -1,0 +1,111 @@
+[
+    {
+      "id": "1",
+      "techName": "Web Development",
+      "img": "https://i.ibb.co/Jyy5G3f/web-development-png.jpg",
+      "registrationFee": 50,
+      "shortDescription": "Embark on a journey to explore the latest trends in web development and enhance your skills. Our Web Development event offers hands-on workshops, networking opportunities, and career guidance. Dive deep into front-end and back-end technologies, learn about cutting-edge frameworks, and discover strategies for successful project deployment. Whether you're a beginner or an experienced developer, this event provides valuable insights and practical experiences to elevate your web development expertise.",
+
+      "benefits": "[Hands-on workshops, Networking opportunities, Career guidance]"
+    },
+    {
+      "id": "2",
+      "techName": "Machine Learning",
+      "img": "https://i.ibb.co/y0vDTMv/machine-learning-png.jpg",
+      "registrationFee": 75,
+      "shortDescription": "Immerse yourself in the fascinating world of machine learning with our comprehensive event. Designed for both beginners and experienced professionals, the Machine Learning event offers in-depth exploration of algorithm implementation, data analysis techniques, and certification programs. Engage with industry experts through practical sessions and gain hands-on experience in real-world applications. Whether you're interested in predictive analytics, natural language processing, or computer vision, this event provides the knowledge and skills to excel in the dynamic field of machine learning.",
+
+      "benefits": "[Algorithm implementation, Data analysis techniques, Certification]"
+    },
+    {
+      "id": "3",
+      "techName": "Artificial Intelligence",
+      "img": "https://i.ibb.co/D5X0X5Z/artificial-png.jpg",
+      "registrationFee": 60,
+      "shortDescription": "Unlock the potential of Artificial Intelligence in our engaging AI event. Delve into AI applications, gain valuable industry insights, and collaborate on exciting projects. Whether you're a student, researcher, or professional, this event offers a unique opportunity to explore the latest advancements in AI technology. From machine learning algorithms to deep neural networks, discover the foundations and applications of AI that are shaping the future. Join us to expand your knowledge, network with like-minded individuals, and contribute to the transformative field of Artificial Intelligence.",
+
+      "benefits": "[AI applications, Industry insights, Collaborative projects]"
+    },
+    {
+      "id": "4",
+      "techName": "Fullstack",
+      "img": "https://i.ibb.co/y5m0r89/fullstack-png.jpg",
+      "registrationFee": 70,
+      "shortDescription": "Master both front-end and back-end technologies in our Fullstack Development event. Whether you're a seasoned developer or a newcomer to coding, this comprehensive event covers everything you need for full-stack proficiency. Explore the latest frameworks, learn about project deployment strategies, and advance your career with a well-rounded skill set. With hands-on exercises and expert guidance, you'll gain the confidence to tackle diverse development challenges and contribute to the ever-evolving world of full-stack development.",
+
+      "benefits": "[Fullstack frameworks, Project deployment, Career advancement]"
+    },
+    {
+      "id": "5",
+      "techName": "App Development",
+      "img": "https://i.ibb.co/CPN3Cwp/app-development.jpg",
+      "registrationFee": 55,
+      "shortDescription": "Enter the exciting world of mobile technology with our App Development event. Whether you're an aspiring app developer or looking to enhance your skills, this event provides a comprehensive exploration of iOS and Android development. Dive into user experience design, learn app deployment strategies, and engage in hands-on projects that mirror real-world scenarios. Stay ahead in the competitive app development landscape with insights from industry professionals, practical knowledge, and the opportunity to showcase your app-building prowess.",
+
+      "benefits": "[iOS and Android development, User experience design, App deployment strategies]"
+    },
+    {
+      "id": "6",
+      "techName": "Networking",
+      "img": "https://i.ibb.co/Ky3t0vB/networking-png.jpg",
+      "registrationFee": 65,
+      "shortDescription": "Deepen your knowledge in networking protocols, security, and infrastructure with our Networking event. Whether you're a network enthusiast or a professional seeking to enhance your skills, this event offers hands-on labs, networking simulations, and certification opportunities. Explore the intricacies of routing, switching, and network security in a collaborative learning environment. Engage with experienced professionals, stay updated on industry best practices, and elevate your networking expertise to new heights.",
+
+      "benefits": "[Hands-on labs, Networking simulations, Certification]"
+    },
+    {
+      "id": "7",
+      "techName": "Cyber-Security",
+      "img": "https://i.ibb.co/V9cWKZh/cyber-sceurity-png.jpg",
+      "registrationFee": 80,
+      "shortDescription": "Protect systems from cyber threats and attacks in our Cyber-Security event. With the increasing complexity of cybersecurity challenges, this event provides a platform to learn ethical hacking, conduct security audits, and prepare for the Certified Cyber Security Professional (CCSP) certification. Engage with cybersecurity experts, explore the latest defense strategies, and gain practical experience in securing digital assets. Join us in advancing your knowledge and skills in the critical field of cyber-security.",
+
+      "benefits": "[Ethical hacking, Security audits, Certified Cyber Security Professional (CCSP) preparation]"
+    },
+    {
+      "id": "8",
+      "techName": "UI/UX",
+      "img": "https://i.ibb.co/bg3yCTz/ui-ux-png.jpg",
+      "registrationFee": 45,
+      "shortDescription": "Craft exceptional user interfaces and experiences for digital products in our UI/UX event. Whether you're a designer, developer, or product manager, this event offers design thinking workshops, usability testing sessions, and portfolio reviews. Explore the principles of user-centered design, stay updated on the latest industry trends, and elevate your skills in creating visually appealing and user-friendly digital experiences. Join us to enhance your UI/UX toolkit and contribute to the success of digital products.",
+
+      "benefits": "[Design thinking workshops, Usability testing, Portfolio review]"
+    },
+    {
+      "id": "9",
+      "techName": "Software Engineering",
+      "img": "https://i.ibb.co/Nm5msZ5/software-enginiaring-png.jpg",
+      "registrationFee": 55,
+      "shortDescription": "Explore software development methodologies and best practices in our Software Engineering event. Whether you're a seasoned developer or just starting in the field, this event covers agile development, code reviews, and project management tools. Engage with industry professionals, enhance your coding skills, and gain insights into effective project collaboration. Elevate your software engineering capabilities and stay ahead in the dynamic landscape of software development.",
+
+      "benefits": "[Agile development, Code reviews, Project management tools]"
+    },
+    {
+      "id": "10",
+      "techName": "Digital Marketing",
+      "img": "https://i.ibb.co/zF9RrVd/digital-marketing-png.jpg",
+      "registrationFee": 50,
+      "shortDescription": "Navigate the dynamic landscape of digital marketing and boost your online presence in our Digital Marketing event. Explore SEO strategies, social media marketing techniques, and campaign analytics. Whether you're a marketer, entrepreneur, or business professional, this event provides actionable insights to drive successful digital marketing campaigns. Stay updated on the latest trends, engage with industry experts, and gain practical knowledge to excel in the digital marketing realm.",
+
+      "benefits": "[SEO strategies, Social media marketing, Campaign analytics]"
+    },
+    {
+      "id": "11",
+      "techName": "Freelancing",
+      "img": "https://i.ibb.co/dLrj8yB/freelancing-png.jpg",
+      "registrationFee": 40,
+      "shortDescription": "Learn the art of freelancing, client management, and building a successful freelance career in our Freelancing event. Whether you're a freelancer looking to enhance your skills or considering freelancing as a career path, this event covers client communication skills, portfolio development, and networking within the freelancer community. Gain valuable insights, connect with experienced freelancers, and set yourself on the path to freelancing success.",
+
+      "benefits": "[Client communication skills, Portfolio development, Freelancer community networking]"
+    },
+    {
+      "id": "12",
+      "techName": "Web Application",
+      "img": "https://i.ibb.co/JWLRTCf/web-application-png.jpg",
+      "registrationFee": 60,
+      "shortDescription": "Create dynamic and responsive web applications using the latest technologies in our Web Application event. Whether you're a developer or enthusiast, this event covers web frameworks, database integration, and project showcase opportunities. Gain hands-on experience with the tools and techniques used in web application development. Join us to stay ahead in the ever-evolving field of web development and showcase your skills through engaging web applications.",
+
+      "benefits": "[Web frameworks, Database integration, Project showcase]"
+    }
+  ]
+  

@@ -1,7 +1,23 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './navbar.css';
+import { useContext } from 'react';
+import { AuthContext } from '../../Providers/AuthProvider';
+import swal from "sweetalert";
 
 const Navbar = () => {
+
+  const {user, logOut} = useContext(AuthContext)
+
+  const handleLogOut = () => {
+    logOut()
+    .then(() =>{
+      console.log('logged out')
+      swal("Signout", "You are successfully signed out", "success");
+    })
+    .catch(error => {
+      console.log(error)
+    })
+  }
 
   const navLinks = (
     <>
@@ -30,13 +46,26 @@ const Navbar = () => {
             >
               FAQ
             </NavLink></li>
+
+    {
+      user && <li>  <NavLink
+      to="/registered"
+      className={({ isActive, isPending }) =>
+        isPending ? "pending" : isActive ? "text-primary underline font-bold text-base md:hover:btn-neutral px-4 py-2 rounded-lg" : ""
+      }
+    >
+      Registered Event
+    </NavLink></li>
+    }
+
+
     <li>  <NavLink
               to="/login"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-primary underline font-bold text-base md:hover:btn-neutral px-4 py-2 rounded-lg" : ""
               }
             >
-              Login
+              Signin
             </NavLink></li>
     <li>  <NavLink
               to="/registration"
@@ -44,10 +73,12 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "text-primary underline font-bold text-base md:hover:btn-neutral px-4 py-2 rounded-lg" : ""
               }
             >
-              Registration
+              Signup
             </NavLink></li>  
+      
     </>
   )
+
     return (
         <div className="navbar bg-base-100">
   <div className="navbar-start">
@@ -74,7 +105,14 @@ const Navbar = () => {
   </div>
 
   <div className="navbar-end">
-    <a className="btn btn-grad">Login</a>
+    {
+      user?  
+       <Link onClick={handleLogOut} className="btn btn-grad">Signout</Link>
+       : 
+       <Link to='/login'><button  className='btn btn-grad'>Signin</button></Link>
+      
+    }
+   
   </div>
 </div>
     );

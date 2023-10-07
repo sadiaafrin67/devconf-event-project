@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="md:flex md:justify-between">
       <div className=" mb-0">
         
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a  className="flex items-center">
          
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DevConf</span>
         </a>
@@ -24,10 +24,10 @@ const Footer = () => {
           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
           <ul className="text-gray-500 dark:text-gray-400 font-medium">
             <li className="mb-4">
-              <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+              <a  className="hover:underline ">Github</a>
             </li>
             <li>
-              <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+              <a  className="hover:underline">Discord</a>
             </li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ const Footer = () => {
     <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
 
     <div className="sm:flex sm:items-center sm:justify-between">
-      <span className="text-sm text-white sm:text-center ">© 2023 <a href="https://flowbite.com/" className="hover:underline">DevConf</a>. All Rights Reserved.
+      <span className="text-sm text-white sm:text-center ">© 2023 <a  className="hover:underline">DevConf</a>. All Rights Reserved.
       </span>
 
       <div className="flex mt-4 space-x-5  sm:justify-center sm:mt-0">
