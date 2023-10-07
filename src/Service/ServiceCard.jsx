@@ -1,5 +1,7 @@
 import './Services.css';
 import swal from 'sweetalert';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 
 const ServiceCard = ({service}) => {
@@ -63,14 +65,22 @@ const ServiceCard = ({service}) => {
     </p>
   </div>
   <div className="p-6 pt-0">
-    <button onClick={handleRegistered} className="block mx-auto btn-grad w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-base font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+
+   <Link to='/registered'>
+   <button onClick={handleRegistered} className="block mx-auto btn-grad w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-base font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
       Registration Now
     </button>
+   </Link>
+
   </div>
 </div>
 
 
     );
 };
+
+ServiceCard.propTypes = {
+    service: PropTypes.object
+}
 
 export default ServiceCard;

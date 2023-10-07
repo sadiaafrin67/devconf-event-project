@@ -15,7 +15,7 @@
       "registrationFee": 75,
       "shortDescription": "Immerse yourself in the fascinating world of machine learning with our comprehensive event. Designed for both beginners and experienced professionals, the Machine Learning event offers in-depth exploration of algorithm implementation, data analysis techniques, and certification programs. Engage with industry experts through practical sessions and gain hands-on experience in real-world applications. Whether you're interested in predictive analytics, natural language processing, or computer vision, this event provides the knowledge and skills to excel in the dynamic field of machine learning.",
 
-      "benefits": "[Algorithm implementation, Data analysis techniques, Certification]"
+      "benefits": "[Algorithm implementation, Data analysis techniques]"
     },
     {
       "id": "3",
@@ -42,7 +42,7 @@
       "registrationFee": 55,
       "shortDescription": "Enter the exciting world of mobile technology with our App Development event. Whether you're an aspiring app developer or looking to enhance your skills, this event provides a comprehensive exploration of iOS and Android development. Dive into user experience design, learn app deployment strategies, and engage in hands-on projects that mirror real-world scenarios. Stay ahead in the competitive app development landscape with insights from industry professionals, practical knowledge, and the opportunity to showcase your app-building prowess.",
 
-      "benefits": "[iOS and Android development, User experience design, App deployment strategies]"
+      "benefits": "[ User experience design, App deployment strategies]"
     },
     {
       "id": "6",
@@ -51,7 +51,7 @@
       "registrationFee": 65,
       "shortDescription": "Deepen your knowledge in networking protocols, security, and infrastructure with our Networking event. Whether you're a network enthusiast or a professional seeking to enhance your skills, this event offers hands-on labs, networking simulations, and certification opportunities. Explore the intricacies of routing, switching, and network security in a collaborative learning environment. Engage with experienced professionals, stay updated on industry best practices, and elevate your networking expertise to new heights.",
 
-      "benefits": "[Hands-on labs, Networking simulations, Certification]"
+      "benefits": "[Hands-on labs, Networking simulations]"
     },
     {
       "id": "7",
@@ -60,7 +60,7 @@
       "registrationFee": 80,
       "shortDescription": "Protect systems from cyber threats and attacks in our Cyber-Security event. With the increasing complexity of cybersecurity challenges, this event provides a platform to learn ethical hacking, conduct security audits, and prepare for the Certified Cyber Security Professional (CCSP) certification. Engage with cybersecurity experts, explore the latest defense strategies, and gain practical experience in securing digital assets. Join us in advancing your knowledge and skills in the critical field of cyber-security.",
 
-      "benefits": "[Ethical hacking, Security audits, Certified Cyber Security Professional (CCSP) preparation]"
+      "benefits": "[Ethical hacking, Security audits,  Cyber Security Professionals meetup]"
     },
     {
       "id": "8",
@@ -96,7 +96,7 @@
       "registrationFee": 40,
       "shortDescription": "Learn the art of freelancing, client management, and building a successful freelance career in our Freelancing event. Whether you're a freelancer looking to enhance your skills or considering freelancing as a career path, this event covers client communication skills, portfolio development, and networking within the freelancer community. Gain valuable insights, connect with experienced freelancers, and set yourself on the path to freelancing success.",
 
-      "benefits": "[Client communication skills, Portfolio development, Freelancer community networking]"
+      "benefits": "[Client communication skills,  Freelancer community networking]"
     },
     {
       "id": "12",
