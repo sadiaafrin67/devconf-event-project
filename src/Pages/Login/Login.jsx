@@ -3,6 +3,7 @@ import "./Login.css";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import swal from "sweetalert";
+import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
   const { SignInUser, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
@@ -125,6 +126,7 @@ const Login = () => {
 
             <div className="mx-auto md:flex md:justify-evenly mb-6">
             <p><button onClick={handleGoogleSignIn} className="btn btn-grad ">Continue With Google</button></p>
+
             <p><button onClick={handleGithubSignIn} className="btn btn-grad">Continue With Github</button></p>
             </div>
 
