@@ -57,7 +57,7 @@ const ServiceCard = ({service}) => {
       </p>
     
     <p className="block my-4 font-sans  text-xl font-semibold  leading-normal text-gray-700 antialiased opacity-75">
-    Benifits of joining our event: {benefits}
+    Benifits of joining our conference: {benefits}
     </p>
 
     <p className="block font-sans my-9  text-base font-medium leading-normal text-gray-700 antialiased opacity-75">

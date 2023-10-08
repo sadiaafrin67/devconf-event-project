@@ -17,9 +17,11 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <BreakingNews></BreakingNews>
-      <Services services={services}></Services>
-      <Spekers></Spekers>
       <Plane></Plane>
+      <Spekers></Spekers>
+      <Services services={services}></Services>
+      
+     
       
     </div>
   );

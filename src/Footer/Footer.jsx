@@ -13,7 +13,7 @@ const Footer = () => {
         
         <a  className="flex items-center">
          
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DevConf</span>
+          <span className="self-center text-2xl mb-6  font-semibold whitespace-nowrap dark:text-white">DevConf</span>
         </a>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

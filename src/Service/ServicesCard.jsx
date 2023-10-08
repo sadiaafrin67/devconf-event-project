@@ -23,7 +23,7 @@ const ServicesCard = ({ service }) => {
               {techName}
             </h5>
             <p className="block font-sans text-xl font-bold leading-relaxed text-inherit antialiased ">
-             Event Registration Fee: {registrationFee}$
+             Conference Registration Fee: {registrationFee}$
             </p>
             <p className="block my-4 font-sans  text-sm font-semibold  leading-normal text-gray-800 antialiased opacity-75">
     Benifits of joining our event: {benefits}
@@ -37,7 +37,7 @@ const ServicesCard = ({ service }) => {
               type="button"
               data-ripple-light="true"
             >
-              Join Event Now
+              Join now 
             </button>
             </Link>
           </div>

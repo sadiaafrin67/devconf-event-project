@@ -1,7 +1,8 @@
 import '../Pages/Login/Login.css';
+import PropTypes from 'prop-types'; 
 
 const SpekersCard = ({speaker}) => {
-    const {img, name, company, id} = speaker
+    const {img, name, company} = speaker
     return (
         <div>
             <div>
@@ -16,5 +17,9 @@ const SpekersCard = ({speaker}) => {
         </div>
     );
 };
+
+SpekersCard.propTypes = {
+    speaker: PropTypes.object
+}
 
 export default SpekersCard;
