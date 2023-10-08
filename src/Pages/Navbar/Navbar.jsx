@@ -67,8 +67,10 @@ const Navbar = () => {
         </NavLink>
       </li>
 
-      {user && (
-        <li>
+   
+        {
+          user && (
+            <li>
           {" "}
           <NavLink
             to="/registered"
@@ -83,9 +85,12 @@ const Navbar = () => {
             Registered Event
           </NavLink>
         </li>
-      )}
+          )
+        }
+     
 
-      <li>
+      
+          <li>
         {" "}
         <NavLink
           to="/about"
@@ -100,8 +105,11 @@ const Navbar = () => {
           About Us
         </NavLink>
       </li>
+    
+    
 
-      <li>
+     
+          <li>
         {" "}
         <NavLink
           to="/faq"
@@ -116,6 +124,9 @@ const Navbar = () => {
           FAQ
         </NavLink>
       </li>
+
+      
+
     </>
   );
 
