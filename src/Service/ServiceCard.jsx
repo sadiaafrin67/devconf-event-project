@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ServiceCard = ({service}) => {
 
-    const { id, techName, img, registrationFee, shortDescription, benefits } = service || {}
+    const { id, techName, img, registrationFee, shortDescription, benefits, type, category } = service || {}
 
     const handleRegistered = () => {
 
@@ -28,10 +28,10 @@ const ServiceCard = ({service}) => {
             if(!isExist){
                 addToRegister.push(...registeredEvent, service)
                 localStorage.setItem('registered', JSON.stringify(addToRegister))
-                swal("Registeration Successful", "You are successfully registered for this event, Thank you for joining", "success");
+                swal("Booked Successful", "You are successfully booked this package, Thank you for choosing us", "success");
             }
             else{
-                swal("Already Registered", "You are already registered for this event, Thank you for joining", "error");
+                swal("Already Booked", "You are already booked this package, Thank you for choosing us", "error");
             }
 
 
@@ -46,18 +46,24 @@ const ServiceCard = ({service}) => {
   </div>
   <div className="p-6">
     <div className="mb-2 flex items-center justify-between">
-      <p className="block font-sans text-2xl font-bold font- leading-relaxed text-blue-gray-900 antialiased">
+      <p className="block font-sans text-4xl font-bold font- leading-relaxed text-blue-gray-900 antialiased">
         {techName}
       </p>
      
     </div>
 
-    <p className="block font-sans text-2xl font-bold  leading-relaxed text-blue-gray-900 antialiased">
-       Registration Fee: {registrationFee}$
+    <p className="block font-sans text-3xl font-bold  leading-relaxed text-blue-gray-900 antialiased">
+       Package Fee: {registrationFee}$
       </p>
     
-    <p className="block my-4 font-sans  text-xl font-semibold  leading-normal text-gray-700 antialiased opacity-75">
-    Benifits of joining our conference: {benefits}
+    <p className="block my-4 font-sans  text-xl font-bold  leading-normal text-gray-700 antialiased opacity-75">
+    Event: {benefits}
+    </p>
+    <p className="block my-4 font-sans  text-xl font-bold  leading-normal text-gray-700 antialiased opacity-75">
+    Package Category: {category}
+    </p>
+    <p className="block my-4 font-sans  text-xl font-bold  leading-normal text-gray-700 antialiased opacity-75">
+      Conference Type: {type}
     </p>
 
     <p className="block font-sans my-9  text-base font-medium leading-normal text-gray-700 antialiased opacity-75">
@@ -68,7 +74,7 @@ const ServiceCard = ({service}) => {
 
    <Link to='/registered'>
    <button onClick={handleRegistered} className="block mx-auto btn-grad w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-base font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-      Registration Now
+      Book Now
     </button>
    </Link>
 

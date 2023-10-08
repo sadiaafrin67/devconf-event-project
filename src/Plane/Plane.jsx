@@ -19,7 +19,7 @@ const Plane = () => {
             <div className="pl-4 mt-10 ">
                 <div className="flex items-center ">
                     <img src="https://devconfbd.com/images/speaker-icon.svg"  />
-                <h1 className="md:text-6xl ml-8 text-2xl mt-10 mb-8 font-semibold text-start"><span className="text-primary font-bold">DevConf</span> 1.0 at a glance</h1>
+                <h1 className="md:text-6xl ml-8 text-2xl mt-10 mb-8 font-semibold text-start"><span className="text-primary font-bold">Dev 3.0</span> at a glance</h1>
                 </div>
                 <h3 className="text-start font-medium  text-base md:text-[25px] md:leading-[40px] lg:leading-[58px]   lg:text-[40px]  text-gray-600 mb-12">Let's have a look. How <span className="text-red-600 font-bold">exciting</span> it is going to be.</h3>
             </div>

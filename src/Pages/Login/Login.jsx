@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Login.css";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import swal from "sweetalert";
 
@@ -8,6 +8,11 @@ const Login = () => {
   const { SignInUser, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
   const location = useLocation()
   const navigate = useNavigate()
+  const [userInfo, setUserInfo] = useState({
+    displayName: "anonymous",
+    email: "anonymous@example.com",
+    photoURL: "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=740&t=st=1696786604~exp=1696787204~hmac=c10645727b8724eecda4984ef1d8fbfba92a9c9072a57b851c28c9b1d8d62b81",
+  })
   
 
 
@@ -46,11 +51,21 @@ const Login = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        const { displayName, email, photoURL } = user;
+        setUserInfo(prev => {
+          return {
+            ...prev,
+            displayName: displayName? displayName : prev.displayName,
+            email: email? email : prev.email,
+            photoURL: photoURL? photoURL : prev.photoURL
+          }
+        })
         e.target.reset();
         swal("Signin", "You are successfully signed in", "success");
       })
       .catch((error) => {
         console.log(error);
+        swal("Signin failed", "Invalid email or password", "error");
       });
   };
 

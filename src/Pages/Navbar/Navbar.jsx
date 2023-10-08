@@ -6,6 +6,9 @@ import swal from "sweetalert";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+console.log(user)
+
+const defaultImg = "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=740&t=st=1696786604~exp=1696787204~hmac=c10645727b8724eecda4984ef1d8fbfba92a9c9072a57b851c28c9b1d8d62b81";
 
   const handleLogOut = () => {
     logOut()
@@ -67,10 +70,8 @@ const Navbar = () => {
         </NavLink>
       </li>
 
-   
-        {
-          user && (
-            <li>
+      {user && (
+        <li>
           {" "}
           <NavLink
             to="/registered"
@@ -82,15 +83,12 @@ const Navbar = () => {
                 : ""
             }
           >
-            Registered Event
+            Booked Packages
           </NavLink>
         </li>
-          )
-        }
-     
+      )}
 
-      
-          <li>
+      <li>
         {" "}
         <NavLink
           to="/about"
@@ -105,11 +103,8 @@ const Navbar = () => {
           About Us
         </NavLink>
       </li>
-    
-    
 
-     
-          <li>
+      <li>
         {" "}
         <NavLink
           to="/faq"
@@ -124,15 +119,12 @@ const Navbar = () => {
           FAQ
         </NavLink>
       </li>
-
-      
-
     </>
   );
 
   return (
     <div className="navbar bg-base-100">
-      <div className="navbar-start">
+      <div className="navbar-start ">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -158,14 +150,14 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex  items-center">
           <img
             className="w-20"
             src="https://i.ibb.co/d2kV5hY/0c2c05c184ca43fc9e4f4e709da7ca7e.jpg"
             alt=""
           />
-          <h4 className="font-bold text-2xl">
-            Dev<span className="text-primary">Conf</span>
+          <h4 className="font-bold hidden sm:block text-2xl">
+            Dev<span className="text-primary">3.0</span>
           </h4>
         </div>
       </div>
@@ -175,16 +167,43 @@ const Navbar = () => {
         </ul>
       </div>
 
+
       <div className="navbar-end">
-        {user ? (
-          <Link onClick={handleLogOut} className="btn btn-grad">
-            Signout
-          </Link>
+        
+     {
+      user && (
+        <div className="dropdown dropdown-end">
+        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+          <div className="w-10 rounded-full">
+            <img src={`${user?.photoURL ? user?.photoURL : defaultImg}`} />
+          </div>
+        </label>
+        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li>
+            <a className="justify-between">
+              {user.displayName ? user.displayName : "anonymous"}
+              
+            </a>
+          </li>
+          <li><a>{user.email ? user.email : "anonymous@example.com"}</a></li>
+          {console.log("js diye aslm",user.photoURL)}
+          <li><Link onClick={handleLogOut}>Logout</Link></li>
+        </ul>
+      </div>
+      )
+     }
+
+       <div >
+       {user ? (
+          ''
         ) : (
           <Link to="/login">
-            <button className="btn btn-grad">Signin</button>
+            <button className="btn btn-grad ">Signin</button>
           </Link>
         )}
+       </div>
+
+
       </div>
     </div>
   );

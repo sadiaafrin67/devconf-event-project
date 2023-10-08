@@ -7,21 +7,20 @@ const Banner = () => {
 
 <div className="carousel w-full rounded-lg mt-10">
   <div id="slide1" className="carousel-item relative w-full min-h-[320px] h-full lg:h-[520px]">
-    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/Fhqs2rc/banner-one.jpg")'}}>
+    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/87rFXb4/alexandre-pellaes-6v-Ajp0psc-X0-unsplash-1-1.jpg")'}}>
       <div className="hero-overlay bg-black bg-opacity-50" />
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-3xl md:text-4xl font-bold text-white">
-            DevConf 2.0
+            Dev 3.0
           </h1>
           <p className="mb-5 text-white lg:text-lg md:text-base text-xs font-medium">
-          Uncover the Power of Code <br /> Join us at the Developer's
-Conference 2023 <br /> Organized by Sadia Afrin
+          Book us for make your event <br /> or conference successfull..   We will organize <br /> your conference the best posiible way.
           </p>
 
         <div className='mx-auto ml-4  md:ml-14 lg:ml-20'>
         <button className="btn  btn-grad rounded border-none text-white">
-            Registration Open
+            Booking Open 
           </button>
         </div>
 
@@ -34,20 +33,19 @@ Conference 2023 <br /> Organized by Sadia Afrin
     </div>
   </div>
   <div id="slide2" className="carousel-item relative w-full min-h-[320px] h-full lg:h-[520px]">
-    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/syj2S3D/16406291-rm373batch2-04.jpg")'}}>
+    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/fd09CSD/ed-tech-conference-learning.jpg")'}}>
       <div className="hero-overlay bg-black bg-opacity-60" />
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-4xl font-bold text-white">
-          DevConf 2.0
+          Dev 3.0
           </h1>
           <p className="mb-5 text-white lg:text-lg md:text-base text-xs font-medium">
-          Uncover the Power of Code <br /> Join us at the Developer's
-Conference 2023 <br /> Organized by Sadia Afrin
+          Book us for make your event <br /> or conference successfull..   We will organize <br /> your conference the best posiible way.
           </p>
            <div className='mx-auto ml-4  md:ml-14 lg:ml-20'>
         <button className="btn  btn-grad rounded border-none text-white">
-            Registration Open
+        Booking Open
           </button>
         </div>
         </div>
@@ -59,20 +57,19 @@ Conference 2023 <br /> Organized by Sadia Afrin
     </div>
   </div>
   <div id="slide3" className="carousel-item relative w-full min-h-[320px] h-full lg:h-[520px]">
-    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/y6xprD6/banner-four.jpg")'}}>
+    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/Q9C4Vjn/https-cdn-evbuc-com-images-598988379-121300576625-1-original.jpg")'}}>
       <div className="hero-overlay bg-black bg-opacity-60" />
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-4xl font-bold text-white">
-          DevConf 2.0
+          Dev 3.0
           </h1>
           <p className="mb-5 lg:text-lg text-white md:text-base text-xs font-medium">
-          Uncover the Power of Code <br /> Join us at the Developer's
-Conference 2023 <br /> Organized by Sadia Afrin
+          Book us for make your event <br /> or conference successfull..   We will organize <br /> your conference the best posiible way.
           </p>
           <div className='mx-auto ml-4  md:ml-14 lg:ml-20'>
         <button className="btn  btn-grad rounded border-none text-white">
-            Registration Open
+        Booking Open
           </button>
         </div>
         </div>
@@ -84,20 +81,19 @@ Conference 2023 <br /> Organized by Sadia Afrin
     </div>
   </div>
   <div id="slide4" className="carousel-item relative w-full min-h-[320px] h-full lg:h-[520px]">
-    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/xY2WVH6/banner-three.jpg")'}}>
+    <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/X8B3tF2/smaller.jpg")'}}>
       <div className="hero-overlay bg-black bg-opacity-60" />
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-4xl font-bold text-white">
-          DevConf 2.0
+          Dev 3.0
           </h1>
           <p className="mb-5 lg:text-lg  text-white md:text-base text-xs font-medium">
-          Uncover the Power of Code <br /> Join us at the Developer's
-Conference 2023 <br /> Organized by Sadia Afrin
+          Book us for make your event <br /> or conference successfull..   We will organize <br /> your conference the best posiible way.
           </p>
           <div className='mx-auto ml-4  md:ml-14 lg:ml-20'>
         <button className="btn  btn-grad rounded border-none text-white">
-            Registration Open
+        Booking Open
           </button>
         </div>
         </div>

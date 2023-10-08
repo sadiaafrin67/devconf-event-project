@@ -7,11 +7,11 @@ const Services = ({ services }) => {
   return (
     <div>
       <h2 className="text-center font-bold text-2xl mt-10">
-        Our Conference <span className="text-primary">Activities</span>
+      Our <span  className="text-primary">Tech Conference</span> Packages
       </h2>
-      <p className="text-center font-medium text-base py-5 px-3 text-gray-600 mb-4">
-        Experience an unforgettable day at devConf 2.0 on May 27, 9 AM to 6 PM.
-        Register now to secure your seat!
+      <p className="text-center font-medium text-base py-5 px-3 md:px-12 text-gray-600 mb-4">
+        Experience an unforgettable event organized by Dev 3.0 on May 27, 9 AM to 6 PM. <br />
+       Booked us for make your event or conference successfull. 
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">

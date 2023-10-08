@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ServicesCard = ({ service }) => {
 
-    const { id, techName, img, registrationFee,  benefits } = service || {}
+    const { id, techName, img, registrationFee,   category } = service || {}
 //   console.log("servicecard diye aslm", service);
 
 
@@ -23,10 +23,10 @@ const ServicesCard = ({ service }) => {
               {techName}
             </h5>
             <p className="block font-sans text-xl font-bold leading-relaxed text-inherit antialiased ">
-             Conference Registration Fee: {registrationFee}$
+             Package Price: {registrationFee}$
             </p>
-            <p className="block my-4 font-sans  text-sm font-semibold  leading-normal text-gray-800 antialiased opacity-75">
-    Benifits of joining our event: {benefits}
+            <p className="block my-4 font-sans  text-lg font-bold  leading-normal text-gray-800 antialiased opacity-75">
+    Package Category: {category}
     </p>
           </div>
        
@@ -37,7 +37,7 @@ const ServicesCard = ({ service }) => {
               type="button"
               data-ripple-light="true"
             >
-              Join now 
+              View Details 
             </button>
             </Link>
           </div>
