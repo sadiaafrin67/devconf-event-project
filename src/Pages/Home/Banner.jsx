@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="my-10">
                  
 
-<div className="carousel w-full rounded-lg mt-10">
+<div  data-aos="zoom-in-up" data-aos-duration="3000" className="carousel w-full rounded-lg mt-10">
   <div id="slide1" className="carousel-item relative w-full min-h-[320px] h-full lg:h-[520px]">
     <div className="hero w-full" style={{backgroundImage: 'url("https://i.ibb.co/87rFXb4/alexandre-pellaes-6v-Ajp0psc-X0-unsplash-1-1.jpg")'}}>
       <div className="hero-overlay bg-black bg-opacity-50" />

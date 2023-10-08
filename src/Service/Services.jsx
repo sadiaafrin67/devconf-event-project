@@ -5,7 +5,9 @@ const Services = ({ services }) => {
   // console.log('services diye aslm', services);
 
   return (
-    <div>
+    <div  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="3000">
       <h2 className="text-center font-bold text-2xl mt-10">
       Our <span  className="text-primary">Tech Conference</span> Packages
       </h2>
@@ -14,7 +16,9 @@ const Services = ({ services }) => {
        Booked us for make your event or conference successfull. 
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+      <div  data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
         {services?.map((service) => (
           <ServicesCard key={service.id} service={service}></ServicesCard>
         ))}
