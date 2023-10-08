@@ -18,7 +18,7 @@ const RegisteredCard = ({service}) => {
  
   <figure><img className="h-96 w-full" src={img} alt="Shoes" /></figure>
 <div className="mx-auto my-5">
-<Link to={`/event/${id}`}><button className="btn-grad w-full   font-bold">View Details</button></Link>
+<Link to='/'><button className="btn-grad w-full   font-bold">View Details</button></Link>
 </div>
 </div>
     );

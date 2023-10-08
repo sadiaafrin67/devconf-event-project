@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import ServiceCard from './ServiceCard';
+import BreakingNews from '../BreakingNews/BreakingNews';
 
 const Service = () => {
 
@@ -11,7 +12,7 @@ const Service = () => {
     
 
     const services = useLoaderData()
-    console.log('service diye aslm dinamically', services)
+    // console.log('service diye aslm dinamically', services)
 
 
     useEffect( () => {
@@ -23,6 +24,9 @@ const Service = () => {
 
     return (
         <div>
+            <div className="mt-20">
+            <BreakingNews></BreakingNews>
+            </div>
             <ServiceCard service={service}></ServiceCard>
         </div>
     );

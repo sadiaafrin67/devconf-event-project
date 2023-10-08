@@ -1,0 +1,42 @@
+[
+    {
+      "id": "1",
+      "name": "Event Duration",
+      "date": "25 May to 27 May"
+      
+    },
+    {
+      "id": "2",
+      "name": "Online Events",
+      "date": "22 May to 27 May"
+     
+    },
+    {
+      "id": "3",
+      "name": "Physical Meetup",
+      "date": "21 May to 27 May"
+      
+    },
+    {
+      "id": "4",
+      "name": "Physical Meetup Attendees",
+      "date": "Only 400 Attendees"
+
+      
+      
+    },
+    {
+      "id": "5",
+      "name": "Guests & Speakers",
+      "date": "Total 100 Guests & Speakers"
+
+      
+      
+    },
+    {
+      "id": "6",
+      "name": "Physical Meetup Venue",
+      "date": "Celebrity Convention Hall, Gulshan 1"
+     
+    }
+]

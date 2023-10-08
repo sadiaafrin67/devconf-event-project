@@ -2,6 +2,9 @@ import { useLoaderData } from "react-router-dom";
 
 import Banner from "./Banner";
 import Services from "../../Service/Services";
+import BreakingNews from "../../BreakingNews/BreakingNews";
+import Spekers from "../../Speakers/Spekers";
+import Plane from "../../Plane/Plane";
 
 
 const Home = () => {
@@ -13,7 +16,11 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <BreakingNews></BreakingNews>
       <Services services={services}></Services>
+      <Spekers></Spekers>
+      <Plane></Plane>
+      
     </div>
   );
 };

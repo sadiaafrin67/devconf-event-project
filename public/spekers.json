@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "name": "Jhankar Mahbub",
+      "company": "Founder, Programming Hero",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fjhankar.png&w=384&q=75"
+    },
+    {
+      "id": "2",
+      "name": "Hasin Hayder",
+      "company": "Founder & Educator, Learn With Hasin Hayder",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fhasin-vai.png&w=384&q=75"
+    },
+    {
+      "id": "3",
+      "name": "Anam Ahmed",
+      "company": "Head of Engineering, ZELF",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fanam-ahmed.png&w=384&q=75"
+    },
+    {
+      "id": "4",
+      "name": "Ali Hossain",
+      "company": "Founder & Educator, Procoder BD",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fali-hossain.png&w=384&q=75"
+    },
+    {
+      "id": "5",
+      "name": "Sumon Molla Selim",
+      "company": "Sr. Software Engineer, Mimecast",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fsumon-molla.png&w=384&q=75"
+    },
+    {
+      "id": "6",
+      "name": "Sunny Sultan",
+      "company": "Co-founder & CEO, 6am Tech",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fsunny-sultan.png&w=384&q=75"
+    },
+    {
+      "id": "7",
+      "name": "Zulkarnine Mahmud",
+      "company": "Software Engineer, Google",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fzulkaernine.png&w=384&q=75"
+    },
+    {
+      "id": "8",
+      "name": "Samnan Rahee",
+      "company": "Founding Engineer, Leveor",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fsamnan.png&w=384&q=75"
+    },
+    {
+      "id": "9",
+      "name": "Abdullah Al Mamun",
+      "company": "Machine Learning Engineer at Meta",
+      "img": "https://devconfbd.com/_next/image?url=%2Fimages%2Fspeakers%2Fmamun-abdullah.png&w=384&q=75"
+    }
+
+]
