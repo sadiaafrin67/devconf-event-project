@@ -35,7 +35,7 @@ Visit the live site at [Dev 3.0](https://devconf-event-project.web.app/)
    - Explore and compare package prices for different event management services.
 
 5. **View Booked Packages:**
-   - Track and manage your booked packages through the user dashboard.
+   - User can see their booked packages through the Booked Package dashboard.
 
 6. **About Us:**
    - Learn more about our team and the mission behind Dev 3.0.
