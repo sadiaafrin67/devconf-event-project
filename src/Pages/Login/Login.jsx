@@ -36,6 +36,7 @@ const Login = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        navigate(location?.state ? location.state : '/')
       })
       .catch((error) => {
         console.log(error);
@@ -52,17 +53,14 @@ const Login = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
-        const { displayName, email, photoURL } = user;
-        setUserInfo(prev => {
-          return {
-            ...prev,
-            displayName: displayName? displayName : prev.displayName,
-            email: email? email : prev.email,
-            photoURL: photoURL? photoURL : prev.photoURL
-          }
-        })
+       
+
+        
+
         e.target.reset();
+
         swal("Signin", "You are successfully signed in", "success");
+        navigate(location?.state ? location.state : '/')
       })
       .catch((error) => {
         console.log(error);
