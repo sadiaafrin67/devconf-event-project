@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const BreakingNews = () => {
   return (
     <div data-aos="fade-up" data-aos-duration="3000" className="flex">
-      <Link className="md:text-sm lg:text-sm text-xs font-semibold" ><button className="btn-grad   font-bold">Book Now <span className="hidden sm:block">hurry up</span></button></Link>
+      <Link className="md:text-sm lg:text-sm text-xs font-semibold" ><button className="btn-grad   font-bold">Book Now</button></Link>
 
       <Marquee pauseOnHover={true} speed={130}>
         <Link className="md:text-lg mr-4 text-sm font-semibold" > Get ready to experience a excilent event organized by Dev 3.0, Experience an unforgettable day at dev 3.0.</Link>
