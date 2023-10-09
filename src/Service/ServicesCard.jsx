@@ -19,7 +19,7 @@ const ServicesCard = ({ service }) => {
             />
           </div>
           <div className="p-6">
-            <h5 className="mb-2 block font-sans text-2xl font-black leading-snug tracking-normal text-blue-gray-900 antialiased">
+            <h5 className="mb-2 block font-sans text-xl font-black leading-snug tracking-normal text-blue-gray-900 antialiased">
               {techName}
             </h5>
             <p className="block font-sans text-xl font-bold leading-relaxed text-inherit antialiased ">

@@ -156,7 +156,7 @@ const defaultImg = "https://img.freepik.com/free-vector/businessman-character-av
             src="https://i.ibb.co/d2kV5hY/0c2c05c184ca43fc9e4f4e709da7ca7e.jpg"
             alt=""
           />
-          <h4 className="font-bold hidden sm:block text-2xl">
+          <h4 className="font-bold md:text-2xl text-base">
             Dev<span className="text-primary">3.0</span>
           </h4>
         </div>
