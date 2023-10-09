@@ -6,7 +6,7 @@ const Plane = () => {
     const [plane, setPlane] = useState([])
 
     useEffect(() => {
-        fetch('./plane.json')
+        fetch('/plane.json')
             .then(res => {console.log(res); return res.json()})
             .then(data => {
                 setPlane(data)

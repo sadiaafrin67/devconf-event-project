@@ -7,7 +7,7 @@ const Spekers = () => {
     const [speakers, setSpeakers] = useState([])
 
     useEffect(() => {
-        fetch('./spekers.json')
+        fetch('/spekers.json')
             .then(res => {console.log(res); return res.json()})
             .then(data => {
                 setSpeakers(data)
